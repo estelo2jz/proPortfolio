@@ -23,6 +23,66 @@
       grid-template-columns: 1fr 1fr;
       grid-template-rows: 700px;
 
+      .main__skills-container {
+        height: 100%;
+        width: 100%;
+        padding: 80px 40px;
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // align-content: center;
+        // ul:before {
+        //   content: '';
+        //   position: relative;
+        //   top: -70px;
+        //   left: 0;
+        //   width: 10px;
+        //   height: 10px;
+        //   border-top: 2px solid #21ebff;
+        //   border-left: 2px solid #21ebff;
+        //   transition: 0.5s;
+        //   transition-delay: 0.5s;
+        // }
+        // ul:after {
+        //   content: '';
+        //   position: relative;
+        //   bottom: -70px;
+        //   right: 0;
+        //   width: 10px;
+        //   height: 10px;
+        //   border-bottom: 2px solid #21ebff;
+        //   border-right: 2px solid #21ebff;
+        //   transition: 0.5s;
+        //   transition-delay: 0.5s;
+        
+        // }
+        ul {
+          display: flex;
+          flex-wrap: wrap;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          align-content: center;
+          padding: 20px 0;
+          // background: red;
+          li {
+            list-style: none;
+            padding: 0 10px;
+            display: grid;
+            p {
+              text-align: center;
+              font-weight: 600;
+            }
+            
+          }
+          img {
+            width: 80px;
+            padding: 10px 0;
+          }
+        }
+        
+      }
+
       .main__text {
         
         padding-right: 20px;
