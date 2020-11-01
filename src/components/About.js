@@ -28,7 +28,7 @@ export default class About extends Component {
                   <li><img src={HTML} /><p>HTML</p></li>
                   <li><img src={CSS} /><p>CSS</p></li>
                   <li><img src={SCSS} /><p>SCSS</p></li>
-                  <li><img src={JavaScript} /><p>JavaScript</p></li>
+                  <li><img src={JavaScript} /><p>JS</p></li>
                   <li><img src={ReactSkill} /><p>ReactJS</p></li>
                   <li><img src={Python} /><p>Python</p></li>
                   <li><img src={NodeJS} /><p>NodeJS</p></li>
