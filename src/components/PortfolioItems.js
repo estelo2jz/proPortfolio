@@ -22,7 +22,7 @@ import Argologo from "../images/companylogo/argo.png";
 export const PortfolioItems = [
   {
     title: 'ArgoAmerica',
-    url: 'https://profresh.netlify.app/',
+    url: 'https://argoamerica.netlify.app/',
     portfolioImage: Argologo,
   },
   {
@@ -67,18 +67,18 @@ export const PortfolioItems = [
     url: 'https://breakedbad-api.netlify.app/',
     portfolioImage: Breaklogo,
   },
-  {
-    title: 'Top 10 JDM',
-    url: 'https://topengines.netlify.app/',
-    portfolioImage: Jmdlogo,
+  // {
+  //   title: 'Top 10 JDM',
+  //   url: 'https://topengines.netlify.app/',
+  //   portfolioImage: Jmdlogo,
 
-  },
-  {
-    title: 'Shoe Storage',
-    url: 'https://shoe-library.netlify.app/',
-    portfolioImage: Shoeslogo,
+  // },
+  // {
+  //   title: 'Argo America',
+  //   url: 'https://argoamerica.netlify.app/',
+  //   portfolioImage: Shoeslogo,
 
-  },
+  // },
   {
     title: 'Expense Tracker',
     url: 'https://react-expense.netlify.app/',
@@ -94,23 +94,23 @@ export const PortfolioItems = [
     url: 'https://svelte-budget-app.netlify.app/',
     portfolioImage: Sveltebudgetlogo,
   },
-  {
-    title: 'Online Shopping',
-    url: 'https://ministore.netlify.app/',
-    portfolioImage: Onlinelogo,
-  },
-  {
-    title: 'Chinese Menu',
-    url: 'https://chinesefood.netlify.app/',
-    portfolioImage: Chineselogo,
+  // {
+  //   title: 'Online Shopping',
+  //   url: 'https://ministore.netlify.app/',
+  //   portfolioImage: Onlinelogo,
+  // },
+  // {
+  //   title: 'Chinese Menu',
+  //   url: 'https://chinesefood.netlify.app/',
+  //   portfolioImage: Chineselogo,
 
-  },
-  {
-    title: 'Fake GUCCI',
-    url: 'https://fakegucci.netlify.app/',
-    portfolioImage: Guccilogo,
+  // },
+  // {
+  //   title: 'Fake GUCCI',
+  //   url: 'https://fakegucci.netlify.app/',
+  //   portfolioImage: Guccilogo,
 
-  },
+  // },
   {
     title: 'Gummi Code',
     url: 'https://gummy-stickers.netlify.app/',
