@@ -30,38 +30,38 @@ export const PortfolioItems = [
     url: 'https://apimovies.netlify.app/',
     portfolioImage: MovieApilogo,
   },
-  {
-    title: 'Top Company Cultures',
-    url: 'https://topcompanyv2.netlify.app/',
-    portfolioImage: Companylogo,
-  },
+  // {
+  //   title: 'Top Company Cultures',
+  //   url: 'https://topcompanyv2.netlify.app/',
+  //   portfolioImage: Companylogo,
+  // },
   {
     title: 'Ice Ice Diamond Drip',
     url: 'https://icydiamond.netlify.app/',
     portfolioImage: Diamondlogo,
   },
-  {
-    title: 'Barber Landing Page',
-    url: 'https://barberclonev2.netlify.app/',
-    portfolioImage: Barberlogo,
+  // {
+  //   title: 'Barber Landing Page',
+  //   url: 'https://barberclonev2.netlify.app/',
+  //   portfolioImage: Barberlogo,
 
-  },
-  {
-    title: 'Grass Pro LandingPage',
-    url: 'https://lawnpro.netlify.app/',
-    portfolioImage: Grasslogo,
+  // },
+  // {
+  //   title: 'Grass Pro LandingPage',
+  //   url: 'https://lawnpro.netlify.app/',
+  //   portfolioImage: Grasslogo,
 
-  },
-  {
-    title: 'React Todo',
-    url: 'https://cryptostockstracker.netlify.app/',
-    portfolioImage: Todologo,
-  },
-  {
-    title: 'Crypto Currency API',
-    url: 'https://cryptostockstracker.netlify.app/',
-    portfolioImage: Cryptologo,
-  },
+  // },
+  // {
+  //   title: 'React Todo',
+  //   url: 'https://cryptostockstracker.netlify.app/',
+  //   portfolioImage: Todologo,
+  // },
+  // {
+  //   title: 'Crypto Currency API',
+  //   url: 'https://cryptostockstracker.netlify.app/',
+  //   portfolioImage: Cryptologo,
+  // },
   {
     title: 'Breaking Bad API',
     url: 'https://breakedbad-api.netlify.app/',
@@ -79,21 +79,21 @@ export const PortfolioItems = [
   //   portfolioImage: Shoeslogo,
 
   // },
-  {
-    title: 'Expense Tracker',
-    url: 'https://react-expense.netlify.app/',
-    portfolioImage: Expenselogo,
-  },
-  {
-    title: 'Lyrics Finder API',
-    url: 'https://react-lyricsss.netlify.app/',
-    portfolioImage: Lyricslogo,
-  },
-  {
-    title: 'Svelte Budget Calculator',
-    url: 'https://svelte-budget-app.netlify.app/',
-    portfolioImage: Sveltebudgetlogo,
-  },
+  // {
+  //   title: 'Expense Tracker',
+  //   url: 'https://react-expense.netlify.app/',
+  //   portfolioImage: Expenselogo,
+  // },
+  // {
+  //   title: 'Lyrics Finder API',
+  //   url: 'https://react-lyricsss.netlify.app/',
+  //   portfolioImage: Lyricslogo,
+  // },
+  // {
+  //   title: 'Svelte Budget Calculator',
+  //   url: 'https://svelte-budget-app.netlify.app/',
+  //   portfolioImage: Sveltebudgetlogo,
+  // },
   // {
   //   title: 'Online Shopping',
   //   url: 'https://ministore.netlify.app/',
@@ -111,11 +111,11 @@ export const PortfolioItems = [
   //   portfolioImage: Guccilogo,
 
   // },
-  {
-    title: 'Gummi Code',
-    url: 'https://gummy-stickers.netlify.app/',
-    portfolioImage: Stickerlogo,
-  },
+  // {
+  //   title: 'Gummi Code',
+  //   url: 'https://gummy-stickers.netlify.app/',
+  //   portfolioImage: Stickerlogo,
+  // },
   {
     title: 'Svelte Razor',
     url: 'https://svelte-razors-store.netlify.app/',
