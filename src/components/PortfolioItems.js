@@ -30,11 +30,11 @@ export const PortfolioItems = [
     url: 'https://apimovies.netlify.app/',
     portfolioImage: MovieApilogo,
   },
-  // {
-  //   title: 'Top Company Cultures',
-  //   url: 'https://topcompanyv2.netlify.app/',
-  //   portfolioImage: Companylogo,
-  // },
+  {
+    title: 'BLING! BLING!',
+    url: 'https://blingblingv2.netlify.app/',
+    portfolioImage: Cryptologo,
+  },
   {
     title: 'Ice Ice Diamond Drip',
     url: 'https://icydiamond.netlify.app/',
