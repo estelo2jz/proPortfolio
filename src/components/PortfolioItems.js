@@ -35,11 +35,11 @@ export const PortfolioItems = [
     url: 'https://blingblingv2.netlify.app/',
     portfolioImage: Cryptologo,
   },
-  {
-    title: 'Ice Ice Diamond Drip',
-    url: 'https://icydiamond.netlify.app/',
-    portfolioImage: Diamondlogo,
-  },
+  // {
+  //   title: 'Ice Ice Diamond Drip',
+  //   url: 'https://icydiamond.netlify.app/',
+  //   portfolioImage: Diamondlogo,
+  // },
   // {
   //   title: 'Barber Landing Page',
   //   url: 'https://barberclonev2.netlify.app/',
