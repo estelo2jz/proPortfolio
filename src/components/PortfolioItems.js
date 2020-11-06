@@ -18,6 +18,8 @@ import Chineselogo from "../images/companylogo/chinese.png";
 import MovieApilogo from "../images/companylogo/movieapi.png";
 import Argologo from "../images/companylogo/argo.png";
 
+import EBUILD from './logo3.png';
+
 
 export const PortfolioItems = [
   {
@@ -35,11 +37,11 @@ export const PortfolioItems = [
     url: 'https://blingblingv2.netlify.app/',
     portfolioImage: Cryptologo,
   },
-  // {
-  //   title: 'Ice Ice Diamond Drip',
-  //   url: 'https://icydiamond.netlify.app/',
-  //   portfolioImage: Diamondlogo,
-  // },
+  {
+    title: 'E.BuildWebOne',
+    url: 'https://ebuildweb1.netlify.app/',
+    portfolioImage: EBUILD,
+  },
   // {
   //   title: 'Barber Landing Page',
   //   url: 'https://barberclonev2.netlify.app/',
