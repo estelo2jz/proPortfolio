@@ -49,7 +49,7 @@ export default class Portfolio extends Component {
             <div>
               <h1>Portfolio's</h1>
             </div>
-            <div className="portfolio__projects">
+            {/* <div className="portfolio__projects">
               <div className="portfolio__items">
                 <a href="https://estelo.net/" target="_blank">
                   <img className="portfolio__image" src={Pv1} />
@@ -65,7 +65,7 @@ export default class Portfolio extends Component {
                   <img className="portfolio__image" src={Pv3} />
                 </a>
               </div>
-          </div>
+            </div> */}
           </div>
           <h2>Project</h2>
           <div className="portfolio__main">
