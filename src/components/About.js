@@ -18,7 +18,7 @@ export default class About extends Component {
           <h1>Hello, I'm Estelo!</h1>
           <div className="main__content">
             <div className="main__text">
-              <h2>I'm a Front-End Web Developer currently living in Beach Park, Illinois.</h2>
+              <h2>I'm a Front-End Developer currently living in Beach Park, Illinois.</h2>
               <p>
                 I like to code starting from scratch, and see where it leads me. 
                 I like to animate things and bringing ideas to life in the browser. I value simple content structure, clean design patterns, and thoughtful user experience.
@@ -37,7 +37,24 @@ export default class About extends Component {
               </div>
             </div>
             <div className="main__image">
-              <img src={Picme} alt="logo" className="main__img" />
+              <div class="container">
+                <div class="image">
+                  <img src={Picme} />
+                </div>
+                <div class="content">
+                  <div class="info">
+                    <h2>Estelo Abellanosa</h2>
+                    <span>Front-End Developer</span>
+                  </div>
+                </div>
+                <ul>
+                  <li><a href="https://www.facebook.com/estelo.abellanosa" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
+                  <li><a href="https://twitter.com/EsteloManitoba" target="_blank"><span class="fab fa-twitter"></span></a></li>
+                  <li><a href="https://www.linkedin.com/in/estelo-abellanosa-83a335186/" target="_blank"><span class="fab fa-linkedin"></span></a></li>
+                  <li><a href="https://github.com/estelo2jz" target="_blank"><span class="fab fa-github"></span></a></li>
+                  <li><a href="https://codepen.io/manitobaaa" target="_blank"><span class="fab fa-codepen"></span></a></li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
