@@ -37,23 +37,8 @@ export default class About extends Component {
               </div>
             </div>
             <div className="main__image">
-              <div class="container">
-                <div class="image">
-                  <img src={Picme} />
-                </div>
-                <div class="content">
-                  <div class="info">
-                    <h2>Estelo Abellanosa</h2>
-                    <span>Front-End Developer</span>
-                  </div>
-                </div>
-                <ul>
-                  <li><a href="https://www.facebook.com/estelo.abellanosa" target="_blank"><span class="fab fa-facebook-f"></span></a></li>
-                  <li><a href="https://twitter.com/EsteloManitoba" target="_blank"><span class="fab fa-twitter"></span></a></li>
-                  <li><a href="https://www.linkedin.com/in/estelo-abellanosa-83a335186/" target="_blank"><span class="fab fa-linkedin"></span></a></li>
-                  <li><a href="https://github.com/estelo2jz" target="_blank"><span class="fab fa-github"></span></a></li>
-                  <li><a href="https://codepen.io/manitobaaa" target="_blank"><span class="fab fa-codepen"></span></a></li>
-                </ul>
+              <div className="main__img">
+                <img src={Picme} />
               </div>
             </div>
           </div>
