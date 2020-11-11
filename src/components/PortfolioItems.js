@@ -48,12 +48,12 @@ export const PortfolioItems = [
     portfolioImage:Cryptologo,
 
   },
-  // {
-  //   title: 'Grass Pro LandingPage',
-  //   url: 'https://lawnpro.netlify.app/',
-  //   portfolioImage: Grasslogo,
+  {
+    title: 'Pizza Landing Page',
+    url: 'https://pizzalanding.netlify.app/',
+    portfolioImage: Grasslogo,
 
-  // },
+  },
   // {
   //   title: 'React Todo',
   //   url: 'https://cryptostockstracker.netlify.app/',
