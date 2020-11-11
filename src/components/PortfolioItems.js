@@ -32,22 +32,22 @@ export const PortfolioItems = [
     url: 'https://apimovies.netlify.app/',
     portfolioImage: MovieApilogo,
   },
-  {
-    title: 'BLING! BLING!',
-    url: 'https://blingblingv2.netlify.app/',
-    portfolioImage: Cryptologo,
-  },
+  // {
+  //   title: 'BLING! BLING!',
+  //   url: 'https://blingblingv2.netlify.app/',
+  //   portfolioImage: Cryptologo,
+  // },
   {
     title: 'E.BuildWebOne',
     url: 'https://ebuildweb1.netlify.app/',
     portfolioImage: EBUILD,
   },
-  // {
-  //   title: 'Barber Landing Page',
-  //   url: 'https://barberclonev2.netlify.app/',
-  //   portfolioImage: Barberlogo,
+  {
+    title: 'NYKI',
+    url: 'https://nyki.netlify.app/',
+    portfolioImage:Cryptologo,
 
-  // },
+  },
   // {
   //   title: 'Grass Pro LandingPage',
   //   url: 'https://lawnpro.netlify.app/',
