@@ -18,6 +18,7 @@ import Chineselogo from "../images/companylogo/chinese.png";
 import MovieApilogo from "../images/companylogo/movieapi.png";
 import Argologo from "../images/companylogo/argo.png";
 import YouTube from "../images/companylogo/youtube.png";
+import Nyke from "../images/companylogo/nyke.png";
 
 import EBUILD from './logo3.png';
 
@@ -46,7 +47,7 @@ export const PortfolioItems = [
   {
     title: 'NYKI',
     url: 'https://nyki.netlify.app/',
-    portfolioImage:Cryptologo,
+    portfolioImage: Nyke,
 
   },
   {
