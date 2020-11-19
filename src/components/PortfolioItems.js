@@ -17,6 +17,7 @@ import Breaklogo from "../images/companylogo/break.png";
 import Chineselogo from "../images/companylogo/chinese.png";
 import MovieApilogo from "../images/companylogo/movieapi.png";
 import Argologo from "../images/companylogo/argo.png";
+import YouTube from "../images/companylogo/youtube.png";
 
 import EBUILD from './logo3.png';
 
@@ -57,7 +58,7 @@ export const PortfolioItems = [
   {
     title: 'YouTube Clone',
     url: 'https://youtubecloning.netlify.app/',
-    portfolioImage: Todologo,
+    portfolioImage: YouTube,
   },
   // {
   //   title: 'Crypto Currency API',
