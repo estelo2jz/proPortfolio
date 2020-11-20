@@ -9,6 +9,8 @@ import Python from '../logo/skills/python.svg';
 import ReactSkill from '../logo/skills/react.svg';
 import NodeJS from '../logo/skills/nodejs.svg';
 import MySQL from '../logo/skills/mysql.svg';
+import MongoDB from '../logo/skills/mongo.png';
+import FirebaseLogo from '../logo/skills/firebase.png';
 
 export default class About extends Component {
   render() {
@@ -19,12 +21,14 @@ export default class About extends Component {
           <div className="main__content">
             <div className="main__text">
               <h2>I'm a Front-End Developer currently living in Beach Park, Illinois.</h2>
-              <p>
+              {/* <p>
                 I like to code starting from scratch, and see where it leads me. 
                 I like to animate things and bringing ideas to life in the browser. I value simple content structure, clean design patterns, and thoughtful user experience.
-              </p>
+              </p> */}
               <div className="main__skills-container">
                 <ul>
+                  <li><img src={MongoDB} /><p>Firebase</p></li>
+                  <li><img src={FirebaseLogo} /><p>MongoDB</p></li>
                   <li><img src={HTML} /><p>HTML</p></li>
                   <li><img src={CSS} /><p>CSS</p></li>
                   <li><img src={SCSS} /><p>SCSS</p></li>
