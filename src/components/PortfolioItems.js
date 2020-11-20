@@ -28,7 +28,7 @@ import EBUILD from './logo3.png';
 export const PortfolioItems = [
   {
     title: 'YouTube Clone',
-    url: 'https://youtubecloning.netlify.app/',
+    url: 'https://youtubewithfirebase.netlify.app/',
     portfolioImage: YouTube,
   },
   {
