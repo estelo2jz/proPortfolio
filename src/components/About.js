@@ -21,6 +21,9 @@ export default class About extends Component {
           <div className="main__content">
             <div className="main__text">
               <h2>I'm a Front-End Developer currently living in Beach Park, Illinois.</h2>
+              <p>
+                Proficient in React and Firebase.
+              </p>
               {/* <p>
                 I like to code starting from scratch, and see where it leads me. 
                 I like to animate things and bringing ideas to life in the browser. I value simple content structure, clean design patterns, and thoughtful user experience.
