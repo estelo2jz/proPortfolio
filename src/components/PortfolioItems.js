@@ -19,11 +19,23 @@ import MovieApilogo from "../images/companylogo/movieapi.png";
 import Argologo from "../images/companylogo/argo.png";
 import YouTube from "../images/companylogo/youtube.png";
 import Nyke from "../images/companylogo/nyke.png";
+import TikTok from "../images/companylogo/tiktok.png";
+
 
 import EBUILD from './logo3.png';
 
 
 export const PortfolioItems = [
+  {
+    title: 'YouTube Clone',
+    url: 'https://youtubecloning.netlify.app/',
+    portfolioImage: YouTube,
+  },
+  {
+    title: 'TIKTOK CLONE',
+    url: 'https://tiktokwithfirebase.netlify.app/',
+    portfolioImage: TikTok,
+  },
   {
     title: 'ArgoAmerica',
     url: 'https://argoamerica.netlify.app/',
@@ -33,16 +45,6 @@ export const PortfolioItems = [
     title: 'Movies API',
     url: 'https://apimovies.netlify.app/',
     portfolioImage: MovieApilogo,
-  },
-  // {
-  //   title: 'BLING! BLING!',
-  //   url: 'https://blingblingv2.netlify.app/',
-  //   portfolioImage: Cryptologo,
-  // },
-  {
-    title: 'E.BuildWebOne',
-    url: 'https://ebuildweb1.netlify.app/',
-    portfolioImage: EBUILD,
   },
   {
     title: 'NYKI',
@@ -57,19 +59,19 @@ export const PortfolioItems = [
 
   },
   {
-    title: 'YouTube Clone',
-    url: 'https://youtubecloning.netlify.app/',
-    portfolioImage: YouTube,
-  },
-  // {
-  //   title: 'Crypto Currency API',
-  //   url: 'https://cryptostockstracker.netlify.app/',
-  //   portfolioImage: Cryptologo,
-  // },
-  {
     title: 'Breaking Bad API',
     url: 'https://breakedbad-api.netlify.app/',
     portfolioImage: Breaklogo,
+  },
+  // {
+  //   title: 'BLING! BLING!',
+  //   url: 'https://blingblingv2.netlify.app/',
+  //   portfolioImage: Cryptologo,
+  // },
+  {
+    title: 'E.BuildWebOne',
+    url: 'https://ebuildweb1.netlify.app/',
+    portfolioImage: EBUILD,
   },
   // {
   //   title: 'Top 10 JDM',
