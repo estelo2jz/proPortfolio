@@ -90,6 +90,9 @@ export default class Portfolio extends Component {
                             <img src={item.portfolioImage} />
                           </div>
                         </div>
+                        <div className="portfolio__desc__container">
+                          <p>Build with {item.description}</p>
+                        </div>
                       </div>
                     )
                   })}

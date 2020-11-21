@@ -63,6 +63,15 @@
     .portfolio__main {
       display: grid;
       grid-template-columns: 1fr 1fr;
+      /* Hide scrollbar for Chrome, Safari, and Opera */
+      .portfolio__left::-webkit-scrollbar {
+        display: none;
+      }
+      /* Hide scrollbar for IE, Edge and Firefox */
+      .portfolio__left {
+        -ms-overlfow-style: none; 
+        scrollbar-width: none;
+      }
       .portfolio__left {
         // display: flex;
         // justify-content: center;
@@ -151,6 +160,16 @@
                   justify-content: center;
                   align-content: center;
                   align-items: center;
+                  img {
+                    width: 100px;
+                  }
+                }
+              }
+              .portfolio__desc__container {
+                p {
+                  font-family: 'Sansita Swashed', cursive;
+                  text-align: center;
+
                 }
               }
             }
