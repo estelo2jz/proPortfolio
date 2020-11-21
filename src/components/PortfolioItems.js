@@ -79,11 +79,11 @@ export const PortfolioItems = [
     description: 'HTML, SCSS, JavaScript, React, IMDB API with Axios.'
 
   },
-  // {
-  //   title: 'BLING! BLING!',
-  //   url: 'https://blingblingv2.netlify.app/',
-  //   portfolioImage: Cryptologo,
-  // },
+  {
+    title: 'HULU CLONE API',
+    url: 'https://huluwithapi.netlify.app/',
+    portfolioImage: HuluLogo,
+  },
   {
     title: 'E.BuildWebOne',
     url: 'https://ebuildweb1.netlify.app/',
