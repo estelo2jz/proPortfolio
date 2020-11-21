@@ -54,7 +54,7 @@ export const PortfolioItems = [
     title: 'Movies API',
     url: 'https://apimovies.netlify.app/',
     portfolioImage: MovieApilogo,
-    description: 'HTML, SCSS, JavaScript, React, IMDB API with Axios.'
+    description: 'HTML, SCSS, JavaScript, React, IMDB movie API with Axios.'
   },
   {
     title: 'NYKI',
@@ -83,6 +83,7 @@ export const PortfolioItems = [
     title: 'HULU CLONE API',
     url: 'https://huluwithapi.netlify.app/',
     portfolioImage: HuluLogo,
+    description: 'HTML, SCSS, JavaScript, MaterialUI, React, TMDB movie API with Axios.'
   },
   {
     title: 'E.BuildWebOne',
