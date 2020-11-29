@@ -23,7 +23,7 @@ import TikTok from "../images/companylogo/tiktok.png";
 import PizzaLogo from "../images/companylogo/pizza.png";
 import AmazonLogo from "../images/companylogo/amazon.png";
 import HuluLogo from "../images/companylogo/hulu.png";
-import SpotifyLogo from "../images/companylogo/spotify.png";
+import SongLibrary from "../images/companylogo/songlibrary.png";
 
 
 
@@ -92,12 +92,12 @@ export const PortfolioItems = [
     description: 'HTML, SCSS, JavaScript, StyledCompoments, React.'
 
   },
-  // {
-  //   title: 'Top 10 JDM',
-  //   url: 'https://topengines.netlify.app/',
-  //   portfolioImage: Jmdlogo,
-
-  // },
+  {
+    title: 'Song Library',
+    url: 'https://songlibrary.netlify.app/',
+    portfolioImage: SongLibrary,
+    description: 'HTML, CSS, JavaScript, Vue.'
+  },
   // {
   //   title: 'Argo America',
   //   url: 'https://argoamerica.netlify.app/',

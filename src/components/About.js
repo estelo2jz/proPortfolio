@@ -11,6 +11,7 @@ import NodeJS from '../logo/skills/nodejs.svg';
 import MySQL from '../logo/skills/mysql.svg';
 import MongoDB from '../logo/skills/mongo.png';
 import FirebaseLogo from '../logo/skills/firebase.png';
+import VueLogo from '../logo/skills/vue.png';
 
 export default class About extends Component {
   render() {
@@ -36,6 +37,7 @@ export default class About extends Component {
                   <li><img src={CSS} /><p>CSS</p></li>
                   <li><img src={SCSS} /><p>SCSS</p></li>
                   <li><img src={JavaScript} /><p>JS</p></li>
+                  <li><img src={VueLogo} /><p>Vue</p></li>
                   <li><img src={ReactSkill} /><p>ReactJS</p></li>
                   <li><img src={Python} /><p>Python</p></li>
                   <li><img src={NodeJS} /><p>NodeJS</p></li>
