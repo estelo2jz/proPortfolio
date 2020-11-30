@@ -31,8 +31,8 @@ export default class About extends Component {
               </p> */}
               <div className="main__skills-container">
                 <ul>
-                  <li><img src={MongoDB} /><p>Firebase</p></li>
-                  <li><img src={FirebaseLogo} /><p>MongoDB</p></li>
+                  <li><img src={MongoDB} /><p>MongoDB</p></li>
+                  <li><img src={FirebaseLogo} /><p>Firebase</p></li>
                   <li><img src={HTML} /><p>HTML</p></li>
                   <li><img src={CSS} /><p>CSS</p></li>
                   <li><img src={SCSS} /><p>SCSS</p></li>
