@@ -98,12 +98,12 @@ export const PortfolioItems = [
     portfolioImage: SongLibrary,
     description: 'HTML, CSS, JavaScript, Vue.'
   },
-  // {
-  //   title: 'Argo America',
-  //   url: 'https://argoamerica.netlify.app/',
-  //   portfolioImage: Shoeslogo,
+  {
+    title: 'Amazon Clone',
+    url: 'https://amazonreactclone.netlify.app/',
+    portfolioImage: AmazonLogo,
 
-  // },
+  },
   // {
   //   title: 'Expense Tracker',
   //   url: 'https://react-expense.netlify.app/',
