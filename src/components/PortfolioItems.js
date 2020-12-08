@@ -102,6 +102,7 @@ export const PortfolioItems = [
     title: 'Amazon Clone',
     url: 'https://amazonreactclone.netlify.app/',
     portfolioImage: AmazonLogo,
+    description: 'HTML, CSS, JavaScript, MaterialUI, React.'
 
   },
   // {
