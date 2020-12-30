@@ -12,10 +12,10 @@ export default class Home extends Component {
               Estelo Abellanosa
               {/* <img src={Picme2} alt="logo" className="main__img" /> */}
             </span>
-            <h1>Web Developer</h1>
+            <h1>Front-End Developer</h1>
             <p>
               I am an experience web developer. I'm a tech enthusiast passionate in codes. 
-              I design, build web site/applications, and I'm currently looking for new opportunities.</p>
+              I design, build web site and applications, and I'm currently looking for new opportunities.</p>
           </div>
           <div className="column__right">
             <img src={Picme2} alt="brain" className="hero__img"/>

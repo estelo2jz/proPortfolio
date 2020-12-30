@@ -21,7 +21,7 @@ export default class About extends Component {
           <h1>Hello, I'm Estelo!</h1>
           <div className="main__content">
             <div className="main__text">
-              <h2>I'm a Web Developer currently living in Beach Park Illinois.</h2>
+              <h2>I'm a Front-End Developer currently living in Beach Park Illinois.</h2>
               <p>
                 Proficient in React and Firebase.
               </p>

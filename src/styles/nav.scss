@@ -9,6 +9,7 @@ $vanBG: 'red';
   top: 0;
   left: 0;
   width: 100%;
+  z-index: 10000;
   // background: rgba(0, 0, 0, 0.556);
   background-color: maroon;
   scroll-behavior: smooth;
@@ -46,7 +47,7 @@ $vanBG: 'red';
   transition: 350ms;
   background: rgba(0, 0, 0, 0.556);
   // background-color: maroon;
-    z-index: 1;
+    z-index: 10000;
 }
 
 .nav-text {
