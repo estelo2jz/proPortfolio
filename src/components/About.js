@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Picme from "../logo/pic.jpg";
+import Picme from "../images/me.jpg";
 
 import HTML from '../logo/skills/html-5.svg'
 import CSS from '../logo/skills/css.svg';
@@ -21,7 +21,7 @@ export default class About extends Component {
           <h1>Hello, I'm Estelo!</h1>
           <div className="main__content">
             <div className="main__text">
-              <h2>I'm a Front-End Developer currently living in Beach Park, Illinois.</h2>
+              <h2>I'm a Web Developer currently living in Beach Park Illinois.</h2>
               <p>
                 Proficient in React and Firebase.
               </p>
@@ -45,11 +45,11 @@ export default class About extends Component {
                 </ul>
               </div>
             </div>
-            <div className="main__image">
+            {/* <div className="main__image">
               <div className="main__img">
                 <img src={Picme} />
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

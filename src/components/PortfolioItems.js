@@ -24,129 +24,78 @@ import PizzaLogo from "../images/companylogo/pizza.png";
 import AmazonLogo from "../images/companylogo/amazon.png";
 import HuluLogo from "../images/companylogo/hulu.png";
 import SongLibrary from "../images/companylogo/songlibrary.png";
-
-
-
 import EBUILD from './logo3.png';
-
 
 export const PortfolioItems = [
   {
     title: 'YouTube Clone',
     url: 'https://youtubewithfirebase.netlify.app/',
     portfolioImage: YouTube,
-    description: "HTML, SCSS, JavaScript, MaterialUI, React, Firebase as backend."
+    description: ['HTML', 'CSS', 'JavaScript', 'MaterialUI', 'React', 'Firebase']
   },
   {
     title: 'TIKTOK CLONE',
     url: 'https://tiktokwithfirebase.netlify.app/',
     portfolioImage: TikTok,
-    description: "HTML, SCSS, JavaScript, MaterialUI, React, Firebase as backend."
+    description: ['HTML', 'CSS', 'JavaScript', 'MaterialUI', 'React', 'Firebase']
 
-  },
-  {
-    title: 'ArgoAmerica',
-    url: 'https://argoamerica.netlify.app/',
-    portfolioImage: Argologo,
-    description: 'HTML, SCSS, JavaScript, StyledCompoments, React.'
   },
   {
     title: 'Movies API',
     url: 'https://apimovies.netlify.app/',
     portfolioImage: MovieApilogo,
-    description: 'HTML, SCSS, JavaScript, React, IMDB movie API with Axios.'
+    description: ['HTML', 'SCSS', 'JavaScript', 'React', 'API', 'Axios']
   },
   {
     title: 'NYKI',
     url: 'https://nyki.netlify.app/',
     portfolioImage: Nyke,
-    description: 'HTML, SCSS, JavaScript, React.'
-
-
+    description: ['HTML', 'SCSS', 'JavaScript', 'React']
   },
   {
     title: 'Pizza Landing Page',
     url: 'https://pizzalanding.netlify.app/',
     portfolioImage: PizzaLogo,
-    description: 'HTML, SCSS, JavaScript, StyledCompoments, React.'
-
-
+    description: ['HTML', 'SCSS', 'JavaScript', 'React', 'StyledCompoments']
   },
   {
     title: 'Breaking Bad API',
     url: 'https://breakedbad-api.netlify.app/',
     portfolioImage: Breaklogo,
-    description: 'HTML, SCSS, JavaScript, React, IMDB API with Axios.'
+    description: ['HTML', 'SCSS', 'JavaScript', 'React', 'API', 'Axios']
 
   },
   {
     title: 'HULU CLONE API',
     url: 'https://huluwithapi.netlify.app/',
     portfolioImage: HuluLogo,
-    description: 'HTML, SCSS, JavaScript, MaterialUI, React, TMDB movie API with Axios.'
+    description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'API','Axios']
   },
   {
     title: 'E.BuildWebOne',
     url: 'https://ebuildweb1.netlify.app/',
     portfolioImage: EBUILD,
-    description: 'HTML, SCSS, JavaScript, StyledCompoments, React.'
+    description: ['HTML', 'SCSS', 'JavaScript', 'React','StyledCompoments']
 
   },
   {
     title: 'Song Library',
     url: 'https://songlibrary.netlify.app/',
     portfolioImage: SongLibrary,
-    description: 'HTML, CSS, JavaScript, Vue.'
+    description: ['HTML', 'CSS', 'JavaScript', 'Vue']
   },
   {
     title: 'Amazon Clone',
     url: 'https://amazonreactclone.netlify.app/',
     portfolioImage: AmazonLogo,
-    description: 'HTML, CSS, JavaScript, MaterialUI, React.'
+    description: ['HTML', 'CSS', 'JavaScript', 'MaterialUI', 'React']
 
   },
-  // {
-  //   title: 'Expense Tracker',
-  //   url: 'https://react-expense.netlify.app/',
-  //   portfolioImage: Expenselogo,
-  // },
-  // {
-  //   title: 'Lyrics Finder API',
-  //   url: 'https://react-lyricsss.netlify.app/',
-  //   portfolioImage: Lyricslogo,
-  // },
-  // {
-  //   title: 'Svelte Budget Calculator',
-  //   url: 'https://svelte-budget-app.netlify.app/',
-  //   portfolioImage: Sveltebudgetlogo,
-  // },
-  // {
-  //   title: 'Online Shopping',
-  //   url: 'https://ministore.netlify.app/',
-  //   portfolioImage: Onlinelogo,
-  // },
-  // {
-  //   title: 'Chinese Menu',
-  //   url: 'https://chinesefood.netlify.app/',
-  //   portfolioImage: Chineselogo,
-
-  // },
-  // {
-  //   title: 'Fake GUCCI',
-  //   url: 'https://fakegucci.netlify.app/',
-  //   portfolioImage: Guccilogo,
-
-  // },
-  // {
-  //   title: 'Gummi Code',
-  //   url: 'https://gummy-stickers.netlify.app/',
-  //   portfolioImage: Stickerlogo,
-  // },
   {
     title: 'Svelte Razor',
     url: 'https://svelte-razors-store.netlify.app/',
     portfolioImage: Razorlogo,
-    description: 'HTML, SCSS, JavaScript, Svelte.'
+    description: ['HTML', 'SCSS', 'JavaScript', 'Svelte']
 
   },
 ]

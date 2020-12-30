@@ -13,7 +13,9 @@
       flex-direction: column;
       justify-content: space-evenly;
       align-items: flex-start;
-
+      // span {
+      //   font-family: 'Sansita Swashed', cursive;
+      // }
       h1 {
         font-size: 90px;
       }
@@ -53,7 +55,7 @@
 
       .hero__img {
         width: 50%;
-
+        border-radius: 50%;
       }
     }
   }
