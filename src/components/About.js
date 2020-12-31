@@ -41,7 +41,7 @@ export default class About extends Component {
                   <li><img src={ReactSkill} /><p>ReactJS</p></li>
                   <li><img src={Python} /><p>Python</p></li>
                   <li><img src={NodeJS} /><p>NodeJS</p></li>
-                  <li><img src={MySQL} /><p>MySQL</p></li>
+                  {/* <li><img src={MySQL} /><p>MySQL</p></li> */}
                 </ul>
               </div>
             </div>
