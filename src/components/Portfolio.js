@@ -21,11 +21,11 @@ export default class Portfolio extends Component {
                   {PortfolioItems.map((item, index, props) => {
                     return (
                       <div className="portfolioitems__container">
-                        <div className="portfolio__image__container">
+                        {/* <div className="portfolio__image__container">
                           <div className="portfolio__image__self">
                             <img src={item.portfolioImage} />
                           </div>
-                        </div>
+                        </div> */}
                         <div key={index} className="portfolio__url-container">
                           <a className={item.cName} href={item.url} target="_blank">
                             {item.title}
