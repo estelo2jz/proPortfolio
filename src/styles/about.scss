@@ -29,6 +29,21 @@
         height: 100%;
         width: 100%;
         padding: 80px 40px;
+        .main__skills-horizontal {
+          // display: flex;
+          // color: white;
+          // overflow-: scroll;
+          // padding: 10px;
+          // padding-left: 40px; 
+        }
+        .main__skills-horizontal::-webkit-scrollbar {
+          display: none;
+        }
+        /* Hide scrollbar for IE, Edge and Firefox */
+        .main__skills-horizontal {
+          -ms-overlfow-style: none; 
+          scrollbar-width: none;
+        }
         ul {
           display: flex;
           flex-wrap: wrap;

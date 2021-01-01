@@ -30,7 +30,7 @@ export default class About extends Component {
                 I like to animate things and bringing ideas to life in the browser. I value simple content structure, clean design patterns, and thoughtful user experience.
               </p> */}
               <div className="main__skills-container">
-                <ul>
+                <ul className="main__skills-horizontal">
                   <li><img src={MongoDB} /><p>MongoDB</p></li>
                   <li><img src={FirebaseLogo} /><p>Firebase</p></li>
                   <li><img src={HTML} /><p>HTML</p></li>
