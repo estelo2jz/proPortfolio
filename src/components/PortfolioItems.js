@@ -34,6 +34,13 @@ export const PortfolioItems = [
     description: ['HTML', 'CSS', 'JavaScript', 'MaterialUI', 'React', 'Firebase']
   },
   {
+    title: 'Junk-Seller',
+    url: 'https://junkseller.netlify.app/',
+    portfolioImage: AmazonLogo,
+    description: ['HTML', 'CSS', 'JavaScript', 'MaterialUI', 'React', "Context API"]
+
+  },
+  {
     title: 'TIKTOK CLONE',
     url: 'https://tiktokwithfirebase.netlify.app/',
     portfolioImage: TikTok,
@@ -50,7 +57,7 @@ export const PortfolioItems = [
     title: 'NYKI',
     url: 'https://nyki.netlify.app/',
     portfolioImage: Nyke,
-    description: ['HTML', 'SCSS', 'JavaScript', 'React']
+    description: ['HTML', 'SCSS', 'JavaScript', 'React', "Context API"]
   },
   {
     title: 'Pizza Landing Page',
@@ -83,13 +90,6 @@ export const PortfolioItems = [
     url: 'https://songlibrary.netlify.app/',
     portfolioImage: SongLibrary,
     description: ['HTML', 'CSS', 'JavaScript', 'Vue']
-  },
-  {
-    title: 'Amazon Clone',
-    url: 'https://amazonreactclone.netlify.app/',
-    portfolioImage: AmazonLogo,
-    description: ['HTML', 'CSS', 'JavaScript', 'MaterialUI', 'React']
-
   },
   {
     title: 'Svelte Razor',
