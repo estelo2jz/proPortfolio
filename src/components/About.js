@@ -31,16 +31,16 @@ export default class About extends Component {
               </p> */}
               <div className="main__skills-container">
                 <ul className="main__skills-horizontal">
-                  <li><img src={MongoDB} /><p>MongoDB</p></li>
-                  <li><img src={FirebaseLogo} /><p>Firebase</p></li>
-                  <li><img src={HTML} /><p>HTML</p></li>
-                  <li><img src={CSS} /><p>CSS</p></li>
-                  <li><img src={SCSS} /><p>SCSS</p></li>
-                  <li><img src={JavaScript} /><p>JS</p></li>
-                  <li><img src={VueLogo} /><p>VueJS</p></li>
-                  <li><img src={ReactSkill} /><p>ReactJS</p></li>
-                  <li><img src={Python} /><p>Python</p></li>
-                  <li><img src={NodeJS} /><p>NodeJS</p></li>
+                  {/* <li><img src={MongoDB} /></li> */}
+                  <li><img src={FirebaseLogo} /></li>
+                  <li><img src={HTML} /></li>
+                  <li><img src={CSS} /></li>
+                  <li><img src={SCSS} /></li>
+                  <li><img src={JavaScript} /></li>
+                  <li><img src={VueLogo} /></li>
+                  <li><img src={ReactSkill} /></li>
+                  <li><img src={Python} /></li>
+                  <li><img src={NodeJS} /></li>
                   {/* <li><img src={MySQL} /><p>MySQL</p></li> */}
                 </ul>
               </div>

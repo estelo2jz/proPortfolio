@@ -43,12 +43,12 @@ export const PortfolioItems = [
     portfolioImage: Nyke,
     description: ['HTML', 'SCSS', 'JavaScript', 'React', "Context API"]
   },
-  {
-    title: 'Pizza Landing Page',
-    url: 'https://pizzalanding.netlify.app/',
-    portfolioImage: PizzaLogo,
-    description: ['HTML', 'SCSS', 'JavaScript', 'React', 'StyledCompoments']
-  },
+  // {
+  //   title: 'Pizza Landing Page',
+  //   url: 'https://pizzalanding.netlify.app/',
+  //   portfolioImage: PizzaLogo,
+  //   description: ['HTML', 'SCSS', 'JavaScript', 'React', 'StyledCompoments']
+  // },
   {
     title: 'Breaking Bad API',
     url: 'https://breakedbad-api.netlify.app/',
@@ -62,13 +62,13 @@ export const PortfolioItems = [
     portfolioImage: HuluLogo,
     description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'API','Axios']
   },
-  {
-    title: 'E.BuildWebOne',
-    url: 'https://ebuildweb1.netlify.app/',
-    portfolioImage: EBUILD,
-    description: ['HTML', 'SCSS', 'JavaScript', 'React','StyledCompoments']
+  // {
+  //   title: 'E.BuildWebOne',
+  //   url: 'https://ebuildweb1.netlify.app/',
+  //   portfolioImage: EBUILD,
+  //   description: ['HTML', 'SCSS', 'JavaScript', 'React','StyledCompoments']
 
-  },
+  // },
   {
     title: 'Song Library',
     url: 'https://songlibrary.netlify.app/',
