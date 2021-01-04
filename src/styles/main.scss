@@ -23,7 +23,8 @@ $background: "https://images.pexels.com/photos/532563/pexels-photo-532563.jpeg?a
     background-image: url($background);
 
     /* Set a specific height */
-    min-height: 500px; 
+    min-height: 500px;
+    min-width: 100%; 
   
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -31,14 +32,16 @@ $background: "https://images.pexels.com/photos/532563/pexels-photo-532563.jpeg?a
     background-repeat: no-repeat;
     background-size: cover;
 }
-@media screen and (max-width: 468px) {
-  .App {
-    background-image: url($background);
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 500px; 
 
-  }
-}
+.App { height: auto; }
+// @media screen and (max-width: 468px) {
+//   .App {
+//     background-image: url($background);
+//     background-attachment: fixed;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     background-size: cover;
+//     min-height: 500px; 
+
+//   }
+// }
