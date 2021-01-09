@@ -9,6 +9,7 @@ import AmazonLogo from "../images/companylogo/amazon.png";
 import HuluLogo from "../images/companylogo/hulu.png";
 import SongLibrary from "../images/companylogo/songlibrary.png";
 import EBUILD from './logo3.png';
+import JunkSellerLogo from '../images/companylogo/junk.png';
 
 export const PortfolioItems = [
   {
@@ -20,7 +21,7 @@ export const PortfolioItems = [
   {
     title: 'Junk-Seller',
     url: 'https://junkseller.netlify.app/',
-    portfolioImage: AmazonLogo,
+    portfolioImage: JunkSellerLogo,
     description: ['HTML', 'CSS', 'JavaScript', 'MaterialUI', 'React', "Context API"]
 
   },
