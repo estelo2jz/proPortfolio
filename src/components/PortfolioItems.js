@@ -38,25 +38,25 @@ export const PortfolioItems = [
     portfolioImage: MovieApilogo,
     description: ['HTML', 'SCSS', 'JavaScript', 'React', 'API', 'Axios']
   },
-  {
-    title: 'NYKI',
-    url: 'https://nyki.netlify.app/',
-    portfolioImage: Nyke,
-    description: ['HTML', 'SCSS', 'JavaScript', 'React', "Context API"]
-  },
+  // {
+  //   title: 'NYKI',
+  //   url: 'https://nyki.netlify.app/',
+  //   portfolioImage: Nyke,
+  //   description: ['HTML', 'SCSS', 'JavaScript', 'React', "Context API"]
+  // },
   // {
   //   title: 'Pizza Landing Page',
   //   url: 'https://pizzalanding.netlify.app/',
   //   portfolioImage: PizzaLogo,
   //   description: ['HTML', 'SCSS', 'JavaScript', 'React', 'StyledCompoments']
   // },
-  {
-    title: 'Breaking Bad API',
-    url: 'https://breakedbad-api.netlify.app/',
-    portfolioImage: Breaklogo,
-    description: ['HTML', 'SCSS', 'JavaScript', 'React', 'API', 'Axios']
+  // {
+  //   title: 'Breaking Bad API',
+  //   url: 'https://breakedbad-api.netlify.app/',
+  //   portfolioImage: Breaklogo,
+  //   description: ['HTML', 'SCSS', 'JavaScript', 'React', 'API', 'Axios']
 
-  },
+  // },
   {
     title: 'HULU CLONE API',
     url: 'https://huluwithapi.netlify.app/',
