@@ -13,6 +13,9 @@ import MongoDB from '../logo/skills/mongo.png';
 import FirebaseLogo from '../logo/skills/firebase.png';
 import VueLogo from '../logo/skills/vue.png';
 import DjangoLogo from '../logo/skills/django2.png';
+import PythonLogo from '../logo/skills/python.png';
+import HTMLLogo from '../logo/skills/html.png';
+import ReactLogo from '../logo/skills/react.png';
 
 export default class About extends Component {
   render() {
