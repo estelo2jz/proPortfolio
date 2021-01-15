@@ -12,7 +12,7 @@ import MySQL from '../logo/skills/mysql.svg';
 import MongoDB from '../logo/skills/mongo.png';
 import FirebaseLogo from '../logo/skills/firebase.png';
 import VueLogo from '../logo/skills/vue.png';
-// import DjangoLogo from '../logo/skills/django.png';
+import DjangoLogo from '../logo/skills/django2.png';
 
 export default class About extends Component {
   render() {
@@ -24,7 +24,7 @@ export default class About extends Component {
             <div className="main__text">
               <h2>I'm a Front-End Developer currently living in Beach Park Illinois.</h2>
               <p>
-                Proficient in React and Firebase.
+                Skills I'm currently learning and improving by building and redesigning personal projects.
               </p>
               {/* <p>
                 I like to code starting from scratch, and see where it leads me. 
@@ -35,13 +35,13 @@ export default class About extends Component {
                   {/* <li><img src={MongoDB} /></li> */}
                   <li><img src={MongoDB} /></li>
                   <li><img src={FirebaseLogo} /></li>
+                  <li><img src={DjangoLogo} /></li>
                   <li><img src={HTML} /></li>
                   <li><img src={CSS} /></li>
                   <li><img src={SCSS} /></li>
                   <li><img src={JavaScript} /></li>
                   <li><img src={ReactSkill} /></li>
                   <li><img src={Python} /></li>
-                  <li><img src='https://sentry.io/_assets/logos/django-f6f336cde20615169bbf4441c748188dd9903908bc6af952df3bd8f899c55a41.svg' /></li>
                   <li><img src={NodeJS} /></li>
                   {/* <li><img src={MySQL} /><p>MySQL</p></li> */}
                 </ul>

@@ -2,7 +2,7 @@
 @import "./about.scss";
 @import "./service.scss";
 @import "./portfolio.scss";
-@import "./portfolioCard.scss";
+@import "./portfoliotwo.scss";
 @import "./contact.scss";
 @import "./footer.scss";
 @import "./nav.scss";
@@ -20,7 +20,8 @@ $background: "https://images.pexels.com/photos/532563/pexels-photo-532563.jpeg?a
 
 .App {
     /* The image used */
-    background-image: url($background);
+    // background-image: url($background);
+    background-color: crimson;
 
     /* Set a specific height */
     min-height: 500px;

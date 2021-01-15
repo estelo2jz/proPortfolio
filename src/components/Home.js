@@ -14,8 +14,8 @@ export default class Home extends Component {
             </span>
             <h1>Front-End Developer</h1>
             <p>
-              I am an experienced front-end web developer. I'm a tech enthusiast passionate in codes. 
-              I design, build web site and applications, and I'm currently looking for new opportunities.</p>
+              I am an experienced front-end web developer. Where I spent most of time learning and honing my current skillset. I'm a tech enthusiast, passionate in codes. 
+              I love to design and build responsive web applications, and I'm currently looking for new opportunities.</p>
           </div>
           <div className="column__right">
             <img src={Picme2} alt="brain" className="hero__img"/>
