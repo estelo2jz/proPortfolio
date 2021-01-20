@@ -16,13 +16,13 @@ export const PortfolioItems = [
     title: 'YouTube Clone',
     url: 'https://youtubewithfirebase.netlify.app/',
     portfolioImage: YouTube,
-    description: ['HTML', 'CSS', 'JavaScript', 'MaterialUI', 'React', 'Firebase']
+    description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'Firebase']
   },
   {
     title: 'Junk-Seller',
     url: 'https://junkseller.netlify.app/',
     portfolioImage: JunkSellerLogo,
-    description: ['HTML', 'CSS', 'JavaScript', 'MaterialUI', 'React', "Context API"]
+    description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', "Context API"]
 
   },
   {
