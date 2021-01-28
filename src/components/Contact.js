@@ -10,9 +10,7 @@ export default class Contact extends Component {
           <image>
             <AiTwotoneMail />
           </image>
-          <a href="https://mail.google.com/mail/?view=cm&fs=1&to=email@domain.com" target="_blank">
-            <p>Email</p>
-          </a>
+          <p>Email</p>
           <span>estelo2jz@gmail.com</span>
         </div>  
         <h1>Contact Me</h1>

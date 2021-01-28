@@ -12,6 +12,10 @@ $vanBG: 'red';
   z-index: 10000;
   // background: rgba(0, 0, 0, 0.556);
   background-color: maroon;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16);
+  	// -webkit-box-shadow: 0 8px 6px -6px black;
+	  //  -moz-box-shadow: 0 8px 6px -6px black;
+	  //       box-shadow: 0 8px 6px -6px black;
   scroll-behavior: smooth;
 
   .menu-header {
@@ -19,6 +23,7 @@ $vanBG: 'red';
       color: white;
       margin-right: 30px;
       font-family: 'Sansita Swashed', cursive;
+      z-index: 100000;
     }
   }
 }

@@ -12,6 +12,10 @@ import MySQL from '../logo/skills/mysql.svg';
 import MongoDB from '../logo/skills/mongo.png';
 import FirebaseLogo from '../logo/skills/firebase.png';
 import VueLogo from '../logo/skills/vue.png';
+import DjangoLogo from '../logo/skills/django2.png';
+import PythonLogo from '../logo/skills/python.png';
+import HTMLLogo from '../logo/skills/html.png';
+import ReactLogo from '../logo/skills/react.png';
 
 export default class About extends Component {
   render() {
@@ -23,24 +27,25 @@ export default class About extends Component {
             <div className="main__text">
               <h2>I'm a Front-End Developer currently living in Beach Park Illinois.</h2>
               <p>
-                Proficient in React and Firebase.
+                Skills I'm currently learning and improving by building and redesigning personal projects.
               </p>
               {/* <p>
                 I like to code starting from scratch, and see where it leads me. 
                 I like to animate things and bringing ideas to life in the browser. I value simple content structure, clean design patterns, and thoughtful user experience.
               </p> */}
               <div className="main__skills-container">
-                <ul>
-                  <li><img src={MongoDB} /><p>MongoDB</p></li>
-                  <li><img src={FirebaseLogo} /><p>Firebase</p></li>
-                  <li><img src={HTML} /><p>HTML</p></li>
-                  <li><img src={CSS} /><p>CSS</p></li>
-                  <li><img src={SCSS} /><p>SCSS</p></li>
-                  <li><img src={JavaScript} /><p>JS</p></li>
-                  <li><img src={VueLogo} /><p>VueJS</p></li>
-                  <li><img src={ReactSkill} /><p>ReactJS</p></li>
-                  <li><img src={Python} /><p>Python</p></li>
-                  <li><img src={NodeJS} /><p>NodeJS</p></li>
+                <ul className="main__skills-horizontal">
+                  {/* <li><img src={MongoDB} /></li> */}
+                  <li><img src={MongoDB} /></li>
+                  <li><img src={FirebaseLogo} /></li>
+                  <li><img src={DjangoLogo} /></li>
+                  <li><img src={HTML} /></li>
+                  <li><img src={CSS} /></li>
+                  <li><img src={SCSS} /></li>
+                  <li><img src={JavaScript} /></li>
+                  <li><img src={ReactSkill} /></li>
+                  <li><img src={Python} /></li>
+                  <li><img src={NodeJS} /></li>
                   {/* <li><img src={MySQL} /><p>MySQL</p></li> */}
                 </ul>
               </div>
