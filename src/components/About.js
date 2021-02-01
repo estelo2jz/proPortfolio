@@ -36,16 +36,16 @@ export default class About extends Component {
               <div className="main__skills-container">
                 <ul className="main__skills-horizontal">
                   {/* <li><img src={MongoDB} /></li> */}
-                  <li><img src={MongoDB} /></li>
-                  <li><img src={FirebaseLogo} /></li>
-                  <li><img src={DjangoLogo} /></li>
-                  <li><img src={HTML} /></li>
-                  <li><img src={CSS} /></li>
-                  <li><img src={SCSS} /></li>
-                  <li><img src={JavaScript} /></li>
-                  <li><img src={ReactSkill} /></li>
-                  <li><img src={Python} /></li>
-                  <li><img src={NodeJS} /></li>
+                  <li><img src={MongoDB} alt="skill-img" /></li>
+                  <li><img src={FirebaseLogo} alt="skill-img" /></li>
+                  <li><img src={DjangoLogo} alt="skill-img" /></li>
+                  <li><img src={HTML} alt="skill-img" /></li>
+                  <li><img src={CSS} alt="skill-img" /></li>
+                  <li><img src={SCSS} alt="skill-img" /></li>
+                  <li><img src={JavaScript} alt="skill-img" /></li>
+                  <li><img src={ReactSkill} alt="skill-img" /></li>
+                  <li><img src={Python} alt="skill-img" /></li>
+                  <li><img src={NodeJS} alt="skill-img" /></li>
                   {/* <li><img src={MySQL} /><p>MySQL</p></li> */}
                 </ul>
               </div>
