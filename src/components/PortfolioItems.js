@@ -13,10 +13,10 @@ import JunkSellerLogo from '../images/companylogo/junk.png';
 
 export const PortfolioItems = [
   {
-    title: 'YouTube Clone',
-    url: 'https://youtubewithfirebase.netlify.app/',
-    portfolioImage: YouTube,
-    description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'Firebase']
+    title: 'HULU CLONE API',
+    url: 'https://huluwithapi.netlify.app/',
+    portfolioImage: HuluLogo,
+    description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'API','Axios']
   },
   {
     title: 'Junk-Seller',
@@ -26,18 +26,24 @@ export const PortfolioItems = [
 
   },
   {
+    title: 'YouTube Clone',
+    url: 'https://youtubewithfirebase.netlify.app/',
+    portfolioImage: YouTube,
+    description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'Firebase']
+  },
+  {
     title: 'TIKTOK CLONE',
     url: 'https://tiktokwithfirebase.netlify.app/',
     portfolioImage: TikTok,
     description: ['HTML', 'CSS', 'JavaScript', 'MaterialUI', 'React', 'Firebase']
 
   },
-  {
-    title: 'Movies API',
-    url: 'https://apimovies.netlify.app/',
-    portfolioImage: MovieApilogo,
-    description: ['HTML', 'SCSS', 'JavaScript', 'React', 'API', 'Axios']
-  },
+  // {
+  //   title: 'Movies API',
+  //   url: 'https://apimovies.netlify.app/',
+  //   portfolioImage: MovieApilogo,
+  //   description: ['HTML', 'SCSS', 'JavaScript', 'React', 'API', 'Axios']
+  // },
   // {
   //   title: 'NYKI',
   //   url: 'https://nyki.netlify.app/',
@@ -57,12 +63,6 @@ export const PortfolioItems = [
   //   description: ['HTML', 'SCSS', 'JavaScript', 'React', 'API', 'Axios']
 
   // },
-  {
-    title: 'HULU CLONE API',
-    url: 'https://huluwithapi.netlify.app/',
-    portfolioImage: HuluLogo,
-    description: ['HTML', 'SCSS', 'JavaScript', 'MaterialUI', 'React', 'API','Axios']
-  },
   // {
   //   title: 'E.BuildWebOne',
   //   url: 'https://ebuildweb1.netlify.app/',
@@ -70,12 +70,12 @@ export const PortfolioItems = [
   //   description: ['HTML', 'SCSS', 'JavaScript', 'React','StyledCompoments']
 
   // },
-  {
-    title: 'Song Library',
-    url: 'https://songlibrary.netlify.app/',
-    portfolioImage: SongLibrary,
-    description: ['HTML', 'CSS', 'JavaScript', 'Vue']
-  },
+  // {
+  //   title: 'Song Library',
+  //   url: 'https://songlibrary.netlify.app/',
+  //   portfolioImage: SongLibrary,
+  //   description: ['HTML', 'CSS', 'JavaScript', 'Vue']
+  // },
   {
     title: 'Svelte Razor',
     url: 'https://svelte-razors-store.netlify.app/',
