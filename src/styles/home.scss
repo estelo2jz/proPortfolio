@@ -11,17 +11,21 @@
     .column__left {
       display: flex;
       flex-direction: column;
-      justify-content: space-evenly;
+      justify-content: center;
       align-items: flex-start;
       // span {
       //   font-family: 'Sansita Swashed', cursive;
       // }
-      h1 {
-        font-size: 90px;
+      .hero__header {
+        p {
+          // font-size: calc(1vw + 3rem);
+        font-size: clamp(2rem, 5vw, 3rem);
+        }
       }
       p {
-        font-size: 20px;
-        line-height: 2.3;
+        // font-size: calc(1vw + 0.8rem);
+        font-size: clamp(1rem, 1.5vw, 1.5rem);
+        line-height: 1.7;
         font-family: 'Source Sans Pro', sans-serif;
       }
       span {

@@ -20,26 +20,18 @@ export default class Portfolio extends Component {
                 <div className="portfolio__project">
                   {PortfolioItems.map((item, index, props) => {
                     return (
-                      <div className="portfolioitems__container">
+                      <a href={item.url} target="_blank"  className="portfolioitems__container">
                         <div key={index} className="portfolio__url-container">
-                          <a className={item.cName} href={item.url} target="_blank">
+                          <p className={item.cName}>
                             {item.title}
-                          </a>
-                          <p>
-                            <a className={item.cName} href={item.url} target="_blank">
-                              <FaExternalLinkSquareAlt />
-                            </a>
                           </p>
                         </div>
                         <div className="portfolio__image__container">
                           <div className="portfolio__image__self">
-                            <img src={item.portfolioImage} />
+                            <img src={item.portfolioImage} alt="portfolio-items" />
                           </div>
                         </div>
                         <div className="portfolio__desc__container">
-                          <div className="portfolio__desc__heading">
-                            <p>Technologies</p>
-                          </div>
                           <div className="portfolio__desc__items">
                             <p className="portfolio__desc__items__line">{item.description[0]}</p>
                             <p className="portfolio__desc__items__line">{item.description[1]}</p>
@@ -50,7 +42,7 @@ export default class Portfolio extends Component {
                             <p className="portfolio__desc__items__line">{item.description[6]}</p>
                           </div>
                         </div>
-                      </div>
+                      </a>
                     )
                   })}
                 </div>

@@ -8,11 +8,13 @@ export default class Home extends Component {
       <div className="hero__section" id="home">
         <div className="hero__wrapper">
           <div className="column__left">
-            <span>
-              Estelo Abellanosa
+            {/* <span>
+              Estelo Abellanosa */}
               {/* <img src={Picme2} alt="logo" className="main__img" /> */}
-            </span>
-            <h1>Front-End Developer</h1>
+            {/* </span> */}
+            <div className="hero__header">
+              <p>Front-End Developer</p>
+            </div>
             <p>
               I am an experienced front-end web developer. I'm into computers, cars and music. My favorate place to be is in front of my computer, where I spent most of time learning and honing my current skillset. I'm a tech enthusiast, passionate in codes. 
               I love to design and build responsive web applications. I am eager to learn new techonologies, and I'm currently looking for new opportunities.</p>

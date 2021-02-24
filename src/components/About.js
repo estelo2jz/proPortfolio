@@ -22,14 +22,19 @@ export default class About extends Component {
     return (
       <div className="main__section" id="about">
         <div className="main__container">
-          <h1>Hello, I'm Estelo!</h1>
+          <div className="main__header">
+            <p>Hello, I'm Estelo!</p>
+          </div>
           <div className="main__content">
             <div className="main__text">
               <h2>I'm a Front-End Developer currently living in Beach Park Illinois.</h2>
               <div className="main__info">
                 <p>
                   Skills I'm currently learning and improving by building and redesigning personal projects.
-                  Most of my projects are built on React framework, because it was the first framework i learned and now I am moving to React Native and to start building mobile applications.
+                </p>
+                <p>
+                  Most of my projects are built on React framework, and now I am moving to React Native and to start building mobile applications.
+                  I also have experience with Svelte, Ember, Vue, and Django frameworks.
                 </p>
               </div>
               <div className="main__skills-container">

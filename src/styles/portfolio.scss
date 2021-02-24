@@ -13,7 +13,9 @@
       align-content: center;
       grid-column-gap: 20px;
       h1 {
-        font-family: 'Sansita Swashed', cursive;
+        // font-family: 'Sansita Swashed', cursive;
+        font-size: calc(1vw + 2rem);
+        padding: 10px 0px;
       }
 
       .portfolio__projects {
@@ -46,15 +48,6 @@
           width: 80px;
         }
       }
-    }
-    h1 {
-      font-size: 110px;
-      color: #000;
-      -webkit-text-fill-color: transparent;
-      -webkit-text-stroke-color: rgb(255, 255, 255);
-      -webkit-text-stroke-width: 2px;
-      margin-bottom: 32px;
-      font-weight: 700;
     }
     h2 {
       padding: 10px 0px;
@@ -99,44 +92,31 @@
           align-content: center;
           width: 100%;
           height: 100%;
-          // padding: 5px;
-          // margin: 2px;
           height: 100%;
           display: grid;
           flex-direction: column;
           grid-gap: 10px;
             
             .portfolioitems__container {
-              border: 1px solid rgb(204, 204, 204);
               display: grid;
               flex-direction: column;
               width: 100%;
               height: 100%;
-              // padding: 5px;
               grid-row-gap: 10px;
-              // margin: 10px;
-              // padding: 10px;
               border-radius: 5px;
-              box-shadow: inset 4px 4px 5px rgba(255,255,255,0.3),
-              inset -4px -4px 5px rgba(0,0,0,0.1),
-              10px 40px 40px rgba(0,0,0,0.1);
-              background-color: rgb(255, 255, 255);
+              transition: all 0.3s ease-in-out;
+              background: rgba(255, 255, 255, 0.25);
+              text-decoration: none;
               .portfolio__url-container {
                 display: flex;
                 justify-content: center;
                 align-items: center;
                 align-content: center;
                 width: 100%;
-                height: 80px;
-                // background-color: black;
-
-                &:hover {
-                  background: rgba(220, 218, 218, 0.556);
-                  transition: 0.5s;
-                }
-                a {
+                height: 60px;
+                p {
                   text-decoration: none;
-                  color: rgb(0, 0, 0);
+                  color: rgb(255, 255, 255);
                   font-size: 1.2em;
                   width: 100%;
                   padding: 10px;
@@ -146,7 +126,6 @@
                 }
                 p {
                   font-size: 1.2em;
-                  // color: black;
                 }
               }
               .portfolio__image__container {
@@ -155,8 +134,7 @@
                 justify-content: center;
                 align-content: center;
                 align-items: center;
-                // background-color: black;
-
+                padding: 10px 0px;
                 .portfolio__image__self {
                   display: flex;
                   justify-content: center;
@@ -168,9 +146,8 @@
                 }
               }
               .portfolio__desc__container {
-                // border: 2px solid black;
-                height: 150px;
-                color: black;
+                height: 70px;
+                color: rgb(255, 255, 255);
                 .portfolio__desc__heading {
                   display: flex;
                   justify-content: center;
@@ -193,87 +170,10 @@
                 }
               }
             }
-            .portfolioitems__container:nth-child(1) {
-              border-bottom: 5px solid rgb(0, 0, 0);
-              // background-color: rgb(226, 111, 130);
-              // background: #614385;  /* fallback for old browsers */
-              // background: -webkit-linear-gradient(to right, #516395, #614385);  /* Chrome 10-25, Safari 5.1-6 */
-              // background: linear-gradient(to right, #516395, #614385); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-              
-              // background-image: url('../images/companylogo/youtube.png');
-              // background-repeat: no-repeat;
-              // background-position: center;
-              // background-size: contain;
-            }
-            .portfolioitems__container:nth-child(2) {
-              border-bottom: 5px solid rgb(0, 0, 0);
-              // background: #16222A;  /* fallback for old browsers */
-              // background: -webkit-linear-gradient(to right, #3A6073, #16222A);  /* Chrome 10-25, Safari 5.1-6 */
-              // background: linear-gradient(to right, #3A6073, #16222A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-            }
-            .portfolioitems__container:nth-child(3) {
-              border-bottom: 5px solid rgb(0, 0, 0);
-              // background: #1D976C;  /* fallback for old browsers */
-              // background: -webkit-linear-gradient(to right, #93F9B9, #1D976C);  /* Chrome 10-25, Safari 5.1-6 */
-              // background: linear-gradient(to right, #93F9B9, #1D976C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-            }
-            .portfolioitems__container:nth-child(4) {
-              border-bottom: 5px solid rgb(0, 0, 0);
-              // background: #EB3349;  /* fallback for old browsers */
-              // background: -webkit-linear-gradient(to right, #F45C43, #EB3349);  /* Chrome 10-25, Safari 5.1-6 */
-              // background: linear-gradient(to right, #F45C43, #EB3349); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-            }
-            .portfolioitems__container:nth-child(5) {
-              border-bottom: 5px solid rgb(0, 0, 0);
-              // background: #DD5E89;  /* fallback for old browsers */
-              // background: -webkit-linear-gradient(to right, #F7BB97, #DD5E89);  /* Chrome 10-25, Safari 5.1-6 */
-              // background: linear-gradient(to right, #F7BB97, #DD5E89); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-            }
-            .portfolioitems__container:nth-child(6) {
-              border-bottom: 5px solid rgb(0, 0, 0);
-              // background: #4CB8C4;  /* fallback for old browsers */
-              // background: -webkit-linear-gradient(to right, #3CD3AD, #4CB8C4);  /* Chrome 10-25, Safari 5.1-6 */
-              // background: linear-gradient(to right, #3CD3AD, #4CB8C4); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-            }
-            .portfolioitems__container:nth-child(7) {
-              border-bottom: 5px solid rgb(0, 0, 0);
-              // background: #FF512F;  /* fallback for old browsers */
-              // background: -webkit-linear-gradient(to right, #DD2476, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
-              // background: linear-gradient(to right, #DD2476, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-            
-            }
-            .portfolioitems__container:nth-child(8) {
-              border-bottom: 5px solid rgb(0, 0, 0);
-              // background: #3CA55C;  /* fallback for old browsers */
-              // background: -webkit-linear-gradient(to right, #B5AC49, #3CA55C);  /* Chrome 10-25, Safari 5.1-6 */
-              // background: linear-gradient(to right, #B5AC49, #3CA55C); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-            }
-            .portfolioitems__container:nth-child(9) {
-              border-bottom: 5px solid rgb(0, 0, 0);
-              // background: #FF512F;  /* fallback for old browsers */
-              // background: -webkit-linear-gradient(to right, #F09819, #FF512F);  /* Chrome 10-25, Safari 5.1-6 */
-              // background: linear-gradient(to right, #F09819, #FF512F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-            }
-            .portfolioitems__container:nth-child(10) {
-              border-bottom: 5px solid rgb(0, 0, 0);
-              // background: #1A2980;  /* fallback for old browsers */
-              // background: -webkit-linear-gradient(to right, #26D0CE, #1A2980);  /* Chrome 10-25, Safari 5.1-6 */
-              // background: linear-gradient(to right, #26D0CE, #1A2980); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-            }
-            .portfolioitems__container:nth-child(11) {
-              border-bottom: 5px solid rgb(0, 0, 0);
-              // background: #AA076B;  /* fallback for old browsers */
-              // background: -webkit-linear-gradient(to right, #61045F, #AA076B);  /* Chrome 10-25, Safari 5.1-6 */
-              // background: linear-gradient(to right, #61045F, #AA076B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+            .portfolioitems__container:hover {
+              transition: all 0.3s ease-in-out;
+              background: rgba(75, 73, 73, 0.25);
+              transition-delay: 0.1s;
             }
           }
         }
@@ -370,11 +270,6 @@
         .portfolio__projects {
           height: 100%;
           padding: 0;
-          // display: flex;
-          // justify-content: center;
-          // flex-direction: row;
-          .portfolio__items {
-          }
         }
       }
       padding-left: 0px;
