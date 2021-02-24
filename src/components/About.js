@@ -26,19 +26,16 @@ export default class About extends Component {
           <div className="main__content">
             <div className="main__text">
               <h2>I'm a Front-End Developer currently living in Beach Park Illinois.</h2>
-              <p>
-                Skills I'm currently learning and improving by building and redesigning personal projects.
-              </p>
-              {/* <p>
-                I like to code starting from scratch, and see where it leads me. 
-                I like to animate things and bringing ideas to life in the browser. I value simple content structure, clean design patterns, and thoughtful user experience.
-              </p> */}
+              <div className="main__info">
+                <p>
+                  Skills I'm currently learning and improving by building and redesigning personal projects.
+                  Most of my projects are built on React framework, because it was the first framework i learned and now I am moving to React Native and to start building mobile applications.
+                </p>
+              </div>
               <div className="main__skills-container">
                 <ul className="main__skills-horizontal">
-                  {/* <li><img src={MongoDB} /></li> */}
                   <li><img src={MongoDB} alt="skill-img" /></li>
                   <li><img src={FirebaseLogo} alt="skill-img" /></li>
-                  <li><img src={DjangoLogo} alt="skill-img" /></li>
                   <li><img src={HTML} alt="skill-img" /></li>
                   <li><img src={CSS} alt="skill-img" /></li>
                   <li><img src={SCSS} alt="skill-img" /></li>
@@ -46,15 +43,9 @@ export default class About extends Component {
                   <li><img src={ReactSkill} alt="skill-img" /></li>
                   <li><img src={Python} alt="skill-img" /></li>
                   <li><img src={NodeJS} alt="skill-img" /></li>
-                  {/* <li><img src={MySQL} /><p>MySQL</p></li> */}
                 </ul>
               </div>
             </div>
-            {/* <div className="main__image">
-              <div className="main__img">
-                <img src={Picme} />
-              </div>
-            </div> */}
           </div>
         </div>
       </div>

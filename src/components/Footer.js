@@ -29,9 +29,6 @@ export default class Footer extends Component {
             <div className="about-social-animation">
               <a href="https://github.com/estelo2jz" target="_blank"><FaGithub /></a>
             </div>
-            <div className="about-social-animation">
-              <a href="https://codepen.io/manitobaaa" target="_blank"><FaCodepen /></a>
-            </div>
           </div>
         </div>
       </div>
