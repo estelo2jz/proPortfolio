@@ -73,6 +73,7 @@
             align-items: center;
             padding: 10px;
             height: 50px;
+            width: 100%;
             // margin: 10px;
             // z-index: 1;
             // background: rgba(255, 255, 255, 0.556);
@@ -87,6 +88,7 @@
               text-align: center;
               font-weight: 600;
               padding: 5px;
+              width: 100%;
               font-size: clamp(1em, 1vw, 1rem);
               // background-color: red;
             }
