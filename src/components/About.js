@@ -11,11 +11,11 @@ import NodeJS from '../logo/skills/nodejs.svg';
 import MySQL from '../logo/skills/mysql.svg';
 import MongoDB from '../logo/skills/mongo.png';
 import FirebaseLogo from '../logo/skills/firebase.png';
-import VueLogo from '../logo/skills/vue.png';
-import DjangoLogo from '../logo/skills/django2.png';
-import PythonLogo from '../logo/skills/python.png';
-import HTMLLogo from '../logo/skills/html.png';
-import ReactLogo from '../logo/skills/react.png';
+// import VueLogo from '../logo/skills/vue.png';
+// import DjangoLogo from '../logo/skills/django2.png';
+// import PythonLogo from '../logo/skills/python.png';
+// import HTMLLogo from '../logo/skills/html.png';
+// import ReactLogo from '../logo/skills/react.png';
 
 export default class About extends Component {
   render() {
@@ -39,15 +39,15 @@ export default class About extends Component {
               </div>
               <div className="main__skills-container">
                 <ul className="main__skills-horizontal">
-                  <li><img src={MongoDB} alt="skill-img" /></li>
-                  <li><img src={FirebaseLogo} alt="skill-img" /></li>
-                  <li><img src={HTML} alt="skill-img" /></li>
-                  <li><img src={CSS} alt="skill-img" /></li>
-                  <li><img src={SCSS} alt="skill-img" /></li>
-                  <li><img src={JavaScript} alt="skill-img" /></li>
-                  <li><img src={ReactSkill} alt="skill-img" /></li>
-                  <li><img src={Python} alt="skill-img" /></li>
-                  <li><img src={NodeJS} alt="skill-img" /></li>
+                  <li><img src={MongoDB} alt="skill-img" /><p>MongoDB</p></li>
+                  <li><img src={FirebaseLogo} alt="skill-img" /><p>Firebase</p></li>
+                  <li><img src={HTML} alt="skill-img" /><p>HTML</p></li>
+                  <li><img src={CSS} alt="skill-img" /><p>CSS</p></li>
+                  <li><img src={SCSS} alt="skill-img" /><p>SCSS</p></li>
+                  <li><img src={JavaScript} alt="skill-img" /><p>JavaScript</p></li>
+                  <li><img src={ReactSkill} alt="skill-img" /><p>React</p></li>
+                  <li><img src={Python} alt="skill-img" /><p>Python</p></li>
+                  <li><img src={NodeJS} alt="skill-img" /><p>NodeJS</p></li>
                 </ul>
               </div>
             </div>
