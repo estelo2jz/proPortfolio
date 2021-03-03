@@ -39,17 +39,78 @@ export default class About extends Component {
                 </p>
               </div>
               <div className="main__skills-container">
-                <ul className="main__skills-horizontal">
-                  <li><img src={MongoDB} alt="skill-img" /><p>MongoDB</p></li>
-                  <li><img src={FirebaseLogo} alt="skill-img" /><p>Firebase</p></li>
-                  <li><img src={HTML} alt="skill-img" /><p>HTML</p></li>
-                  <li><img src={CSS} alt="skill-img" /><p>CSS</p></li>
-                  <li><img src={SCSS} alt="skill-img" /><p>SCSS</p></li>
-                  <li><img src={JavaScript} alt="skill-img" /><p>JavaScript</p></li>
-                  <li><img src={ReactSkill} alt="skill-img" /><p>React</p></li>
-                  <li><img src={Python} alt="skill-img" /><p>Python</p></li>
-                  <li><img src={NodeJS} alt="skill-img" /><p>NodeJS</p></li>
-                </ul>
+                  <div className="main__skills-item">
+                    <div className="main__skills-img">
+                      <img src={MongoDB} alt="skill-img" />
+                    </div>
+                    <div className="main__skills-title">
+                      <p>MongoDB</p>
+                    </div>
+                  </div>
+                  <div className="main__skills-item">
+                    <div className="main__skills-img">
+                      <img src={FirebaseLogo} alt="skill-img" />
+                    </div>
+                    <div className="main__skills-title">
+                      <p>Firebase</p>
+                    </div>
+                  </div>
+                  <div className="main__skills-item">
+                    <div className="main__skills-img">
+                      <img src={HTML} alt="skill-img" />
+                    </div>
+                    <div className="main__skills-title">
+                      <p>HTML</p>
+                    </div>
+                  </div>
+                  <div className="main__skills-item">
+                    <div className="main__skills-img">
+                      <img src={CSS} alt="skill-img" />
+                    </div>
+                    <div className="main__skills-title">
+                      <p>CSS</p>
+                    </div>
+                  </div>
+                  <div className="main__skills-item">
+                    <div className="main__skills-img">
+                      <img src={SCSS} alt="skill-img" />
+                    </div>
+                    <div className="main__skills-title">
+                      <p>SCSS</p>
+                    </div>
+                  </div>
+                  <div className="main__skills-item">
+                    <div className="main__skills-img">
+                      <img src={JavaScript} alt="skill-img" />
+                    </div>
+                    <div className="main__skills-title">
+                      <p>JavaScript</p>
+                    </div>
+                  </div>
+                  <div className="main__skills-item">
+                    <div className="main__skills-img">
+                      <img src={ReactSkill} alt="skill-img" />
+                    </div>
+                    <div className="main__skills-title">
+                      <p>React</p>
+                    </div>
+                  </div>
+                  <div className="main__skills-item">
+                    <div className="main__skills-img">
+                      <img src={Python} alt="skill-img" />
+                    </div>
+                    <div className="main__skills-title">
+                      <p>Python</p>
+                    </div>
+                  </div>
+                  <div className="main__skills-item">
+                    <div className="main__skills-img">
+                      <img src={NodeJS} alt="skill-img" />
+                    </div>
+                    <div className="main__skills-title">
+                      <p>NodeJS</p>
+                    </div>
+                  </div>
               </div>
             </div>
           </div>
