@@ -7,19 +7,19 @@
     flex-direction: column;
     // justify-content: space-between;
     // grid-template-columns: 1fr 2fr;
-    grid-row-gap: 2rem;
     
     .footer__left {
       display: flex;
       flex-direction: column;
       font-family: 'Sansita Swashed', cursive;
-      
+      margin: 10px;
       h2 {
         margin-bottom: 24px;
+        letter-spacing: 0.5em;
         
       }
       p {
-        line-height: 2;
+        letter-spacing: 0.2em;
       }
     }
     .footer__right {
@@ -27,6 +27,7 @@
       align-items: left;
       // justify-content: space-between;
       // padding:  0 100px;
+      padding: 50px 0px;
       width: 100%;
 
       .about-social-animation {
@@ -39,7 +40,8 @@
         text-decoration: none;
         font-weight: 700;
         text-transform: uppercase;
-        padding: 0px 10px;
+        // padding: 0px 10px;
+        margin: 10px;
       }
     }
   }

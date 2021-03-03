@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Picme from "../images/me.jpg";
 
-import HTML from '../logo/skills/html-5.svg'
-import CSS from '../logo/skills/css.svg';
+import HTML from '../logo/skills/html5.svg'
+import CSS from '../logo/skills/css3.svg';
 import SCSS from '../logo/skills/sass.svg';
 import JavaScript from '../logo/skills/javascript.svg';
 import Python from '../logo/skills/python.svg';
@@ -11,6 +11,7 @@ import NodeJS from '../logo/skills/nodejs.svg';
 import MySQL from '../logo/skills/mysql.svg';
 import MongoDB from '../logo/skills/mongo.png';
 import FirebaseLogo from '../logo/skills/firebase.png';
+
 // import VueLogo from '../logo/skills/vue.png';
 // import DjangoLogo from '../logo/skills/django2.png';
 // import PythonLogo from '../logo/skills/python.png';
