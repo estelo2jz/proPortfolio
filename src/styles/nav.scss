@@ -39,7 +39,7 @@ $vanBG: 'red';
 }
 
 .nav-menu {
-  background-color: #060b26;
+  // background-color: #060b26;
   width: 250px;
   height: 100vh;
   display: flex;
@@ -53,11 +53,11 @@ $vanBG: 'red';
 
 .nav-menu.active {
   left: 0;
-  transition: 350ms;
-  background: rgba(0, 0, 0, 0.556);
+  transition: 350ms linear;
+  // background: rgba(0, 0, 0, 0.556);
   // background-color: maroon;
     z-index: 10000;
-    width: 150px
+    width: 130px
 }
 
 .nav-text {
@@ -69,21 +69,24 @@ $vanBG: 'red';
   height: 60px;
 
   &:hover {
-  background-color: maroon;
-  transition: 0.5s;
+  // background-color: maroon;
+  transition: 0.5s linear;
   }
 }
 
 .nav-text a {
   text-decoration: none;
-  color: #f5f5f5;
+  color: #ffffff;
   font-size: 20px;
   width: 95%;
   height: 100%;
   display: flex;
   align-items: center;
   padding: 0 16px;
-  border-radius: 4px;
+  border-radius: 2px;
+  // font-weight: 700;
+  // background-color: #060b26;
+  background-color: maroon;
 }
 
 .nav-text a:hover {

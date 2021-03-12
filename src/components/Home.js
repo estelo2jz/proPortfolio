@@ -17,7 +17,8 @@ export default class Home extends Component {
             </div>
             <p>
               I am an experienced front-end web developer. I'm into computers, cars and music. My favorate place to be is in front of my computer, where I spent most of time learning and honing my current skillset. I'm a tech enthusiast, passionate in codes. 
-              I love to design and build responsive web applications. I am eager to learn new techonologies, and I'm currently looking for new opportunities.</p>
+              I love to design and build responsive web applications. I am eager to learn new techonologies, and I'm currently looking for new opportunities.
+            </p>
           </div>
           <div className="column__right">
             <img src={Picme2} alt="brain" className="hero__img"/>
