@@ -53,7 +53,7 @@ $vanBG: 'red';
 
 .nav-menu.active {
   left: 0;
-  transition: 350ms linear;
+  transition: all 350ms linear;
   // background: rgba(0, 0, 0, 0.556);
   // background-color: maroon;
     z-index: 10000;
@@ -70,7 +70,7 @@ $vanBG: 'red';
 
   &:hover {
   // background-color: maroon;
-  transition: 0.5s linear;
+  transition:all 0.5s linear;
   }
 }
 
@@ -92,7 +92,7 @@ $vanBG: 'red';
 .nav-text a:hover {
   // background-color: #000000;
   padding: 20px;
-  transition: 0.5s linear;
+  transition: all 0.5s linear;
 }
 
 .nav-menu-items {
@@ -107,6 +107,7 @@ $vanBG: 'red';
   display: flex;
   justify-content: start;
   align-items: center;
+  transition: all 0.3s linear;
     svg {
     width: 20px;
   }
