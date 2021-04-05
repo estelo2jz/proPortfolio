@@ -28,13 +28,13 @@ export default class About extends Component {
           </div>
           <div className="main__content">
             <div className="main__text">
-              <h2>I'm a Front-End Developer currently living in Beach Park Illinois.</h2>
+              <h2>I'm a Web Developer currently living in Beach Park Illinois.</h2>
               <div className="main__info">
                 <p>
                   Skills I'm currently learning and improving by building and redesigning personal projects.
                 </p>
                 <p>
-                  Most of my projects are built on React framework, and now I am moving to React Native and to start building mobile applications.
+                  Most of my projects are built on React framework.
                   I also have experience with Svelte, Ember, Vue, and Django frameworks.
                 </p>
               </div>
