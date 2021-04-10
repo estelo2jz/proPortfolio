@@ -80,8 +80,9 @@
       align-items: center;
 
       .hero__img {
+        background: transparent;
         width: 50%;
-        border-radius: 50%;
+        // border-radius: 50%;
       }
     }
   }

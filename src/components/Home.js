@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { FaLinkedin } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import Logo1 from '../logo/logo3.png';
-import Picme2 from "../images/me.jpg";
+import Picme2 from "../images/newme.jpg";
 
 export default class Home extends Component {
   render() {
